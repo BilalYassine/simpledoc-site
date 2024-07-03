@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '@/public/images/logo.png'
+import SimpleDocLogo from '@/public/images/SimpleDoc-Logo-1024.png'
 
 export default function Footer() {
   return (
@@ -15,7 +16,7 @@ export default function Footer() {
             <div className="mb-4">
               {/* Logo */}
               <Link className="flex items-center justify-center bg-white w-8 h-8 rounded shadow-sm shadow-zinc-950/20" href="/">
-                <Image src={Logo} width={24} height={24} alt="Logo" />
+                <Image src={SimpleDocLogo} width={24} height={24} alt="Logo" />
               </Link>
             </div>
             <div className="grow text-sm text-zinc-500">&copy; SimpleDoc. All rights reserved.</div>

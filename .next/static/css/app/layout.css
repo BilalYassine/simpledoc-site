@@ -1952,7 +1952,7 @@ input[type="search"]::-webkit-search-results-decoration {
   fill: #a1a1aa;
 }
 .fill-zinc-800 {
-  fill: #27272a;
+  fill: #0070CE;
 }
 .object-cover {
   -o-object-fit: cover;
@@ -2141,7 +2141,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .text-zinc-800 {
   --tw-text-opacity: 1;
-  color: rgb(39 39 42 / var(--tw-text-opacity));
+  color: rgb(0 112 206 / var(--tw-text-opacity));
 }
 .text-zinc-900 {
   --tw-text-opacity: 1;
@@ -2369,7 +2369,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .before\:to-zinc-800::before {
   content: var(--tw-content);
-  --tw-gradient-to: #27272a var(--tw-gradient-to-position);
+  --tw-gradient-to: #0070CE var(--tw-gradient-to-position);
 }
 .before\:opacity-\[\.08\]::before {
   content: var(--tw-content);
@@ -2453,7 +2453,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .after\:from-zinc-800::after {
   content: var(--tw-content);
   --tw-gradient-from: #0070CE var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(39 39 42 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-to: rgb(0 112 206 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .after\:content-\[\'\\0022\'\]::after {

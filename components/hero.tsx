@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import HeroImage from '@/public/images/hero-image.png'
+import SimpleDocLogo from '@/public/images/SimpleDoc-Logo-1024.png'
 import Stats from '@/components/stats'
 
 export default function Hero() {
@@ -9,9 +10,13 @@ export default function Hero() {
       <div className="pt-32 pb-12 md:pt-40 md:pb-20">
         {/* Section content */}
         <div className="px-4 sm:px-6">
+          {/* Image */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex justify-center pb-10 md:pb-10 relative">
+          <Image className="rounded-lg" src={SimpleDocLogo} width={160} height={160} alt="Hero" priority />
+        </div>
           <div className="max-w-3xl mx-auto">
               <div className="text-center pb-12 md:pb-16">
-                <h1 className="font-inter-tight text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-zinc-500 via-zinc-900 to-zinc-900 pb-4">
+                <h1 className="font-inter-tight text-4xl md:text-5xl font-bold bg-clip-text text-zinc-900 pb-4">
                   SimpleDoc
                 </h1>
                 <p className="text-lg text-zinc-500 mb-8">
@@ -27,10 +32,6 @@ export default function Hero() {
                 </div> */}
               </div>
           </div>
-        </div>
-        {/* Image */}
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex justify-center pb-12 md:pb-20 relative before:absolute before:-top-12 before:w-96 before:h-96 before:bg-zinc-900 before:opacity-[.15] before:rounded-full before:blur-3xl before:-z-10">
-          <Image className="rounded-lg shadow-2xl" src={HeroImage} width={1104} height={620} alt="Hero" priority />
         </div>
 
         {/* Stats */}

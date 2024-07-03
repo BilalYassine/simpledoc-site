@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '@/public/images/logo-02.png'
+import SimpleDocLogo from '@/public/images/SimpleDoc-Logo-1024.png'
 
 export default function Features02() {
   return (
@@ -10,7 +11,7 @@ export default function Features02() {
           <div className="relative max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex items-center justify-center w-20 h-20 bg-white rounded-xl shadow-md mb-8 relative before:absolute before:-top-12 before:w-52 before:h-52 before:bg-zinc-900 before:opacity-[.08] before:rounded-full before:blur-3xl before:-z-10">
               <Link href="/">
-                <Image src={Logo} width={60} height={60} alt="Logo" />
+                <Image src={SimpleDocLogo} width={60} height={60} alt="Logo" />
               </Link>
             </div>
             <h2 className="font-inter-tight text-3xl md:text-4xl font-bold text-zinc-900 mb-4">Resources <em className="relative not-italic inline-flex justify-center items-end">

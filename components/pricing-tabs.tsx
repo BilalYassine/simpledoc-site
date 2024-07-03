@@ -99,11 +99,11 @@ export default function PricingTabs() {
   ]
 
   return (
-    <section>
+    <section className="bg-zinc-50">
       <div className="py-12 md:py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="relative max-w-3xl mx-auto text-center pb-12">
-            <h2 className="font-inter-tight text-3xl md:text-4xl font-bold text-zinc-900 mb-4">Privacy and Security</h2>
+            <h2 className="font-inter-tight text-3xl md:text-4xl font-bold text-zinc-900 mb-4">How It Works</h2>
             {/* <p className="text-lg text-zinc-500">Start creating realtime design experiences for free. Upgrade for extra features and collaboration with your team.</p> */}
           </div>
 
@@ -132,53 +132,10 @@ export default function PricingTabs() {
               <div className="h-full">
                 <div className="relative flex flex-col h-full p-6 rounded-lg border border-transparent [background:linear-gradient(theme(colors.zinc.50),theme(colors.zinc.50))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box]">
                   <div className="mb-4">
-                    <div className="text-lg text-zinc-900 font-semibold mb-1">Privacy Policy</div>
-                    <div className="text-zinc-500">How patient data is protected & Compliance with healthcare regulations</div>
+                    <div className="text-lg text-zinc-900 font-semibold mb-1">For Patients</div>
+                    <div className="text-zinc-500">*Benefits of personalized education & Examples of structured and unstructured use cases*</div>
                   </div>
-                  <div className="grow">
-                    <ul className="text-zinc-600 dark:text-zinc-400 text-sm space-y-3 grow">
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="01" content="Lorem Ipsum is simply dummy text of the printing.">
-                          Bullet 1
-                        </Tooltip>
-                      </li>
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="02" content="Lorem Ipsum is simply dummy text of the printing.">
-                          Bullet 2
-                        </Tooltip>
-                      </li>
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="03" content="Lorem Ipsum is simply dummy text of the printing.">
-                          Bullet 3
-                        </Tooltip>
-                      </li>
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="04" content="Lorem Ipsum is simply dummy text of the printing.">
-                          Bullet 4
-                        </Tooltip>
-                      </li>
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="05" content="Lorem Ipsum is simply dummy text of the printing.">
-                          Bullet 5
-                        </Tooltip>
-                      </li>
-                    </ul>
-                  </div>
+    
                   <div className="mt-8">
                     <a className="btn text-zinc-100 bg-gradient-to-r from-zinc-700 to-zinc-900 hover:from-zinc-900 hover:to-zinc-900 w-full shadow" href="#0">
                       Learn More
@@ -191,54 +148,10 @@ export default function PricingTabs() {
               <div className="h-full">
                 <div className="relative flex flex-col h-full p-6 rounded-lg bg-zinc-800">
                   <div className="mb-4">
-                    <div className="text-lg text-zinc-200 font-semibold mb-1">Terms of Service</div>
-                    <div className="text-zinc-500">User agreements and conditions & Legal disclaimers</div>
+                    <div className="text-lg text-zinc-200 font-semibold mb-1">Demo</div>
+                    <div className="text-zinc-200">*Short video or interactive demo & Screenshots of the app interface, GIFs, etc.*</div>
                   </div>
-                  <div className="grow">
-                    <div className="text-sm text-zinc-200 font-medium mb-4">Includes:</div>
-                    <ul className="text-zinc-600 dark:text-zinc-400 text-sm space-y-3 grow">
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="07" content="Lorem Ipsum is simply dummy text of the printing." dark>
-                          Bullet 1
-                        </Tooltip>
-                      </li>
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="08" content="Lorem Ipsum is simply dummy text of the printing." dark>
-                          Bullet 2
-                        </Tooltip>
-                      </li>
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="09" content="Lorem Ipsum is simply dummy text of the printing." dark>
-                          Bullet 3
-                        </Tooltip>
-                      </li>
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="10" content="Lorem Ipsum is simply dummy text of the printing." dark>
-                          Bullet 4
-                        </Tooltip>
-                      </li>
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="11" content="Lorem Ipsum is simply dummy text of the printing." dark>
-                          Bullet 5
-                        </Tooltip>
-                      </li>
-                    </ul>
-                  </div>
+                  
                   <div className="mt-8">
                     <a className="btn text-zinc-600 bg-white hover:text-zinc-900 w-full shadow" href="#0">
                       Learn More
@@ -251,54 +164,10 @@ export default function PricingTabs() {
               <div className="h-full">
                 <div className="relative flex flex-col h-full p-6 rounded-lg border border-transparent [background:linear-gradient(theme(colors.zinc.50),theme(colors.zinc.50))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box]">
                   <div className="mb-4">
-                    <div className="text-lg text-zinc-900 font-semibold mb-1">Security Measures</div>
-                    <div className="text-zinc-500">Description of security protocols & Commitment to patient data safety</div>
+                    <div className="text-lg text-zinc-900 font-semibold mb-1">For Healthcare Providers</div>
+                    <div className="text-zinc-500">*Benefits for healthcare providers & Examples of patient engagement and outcome improvement*</div>
                   </div>
-                  <div className="grow">
-                    <div className="text-sm text-zinc-900 font-medium mb-4">Includes:</div>
-                    <ul className="text-zinc-600 dark:text-zinc-400 text-sm space-y-3 grow">
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="13" content="Lorem Ipsum is simply dummy text of the printing.">
-                          Bullet 1
-                        </Tooltip>
-                      </li>
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="14" content="Lorem Ipsum is simply dummy text of the printing.">
-                          Bullet 2
-                        </Tooltip>
-                      </li>
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="15" content="Lorem Ipsum is simply dummy text of the printing.">
-                          Bullet 3
-                        </Tooltip>
-                      </li>
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="16" content="Lorem Ipsum is simply dummy text of the printing.">
-                          Bullet 4
-                        </Tooltip>
-                      </li>
-                      <li className="flex items-center">
-                        <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                        </svg>
-                        <Tooltip id="17" content="Lorem Ipsum is simply dummy text of the printing.">
-                          Bullet 5
-                        </Tooltip>
-                      </li>
-                    </ul>
-                  </div>
+                  
                   <div className="mt-8">
                     <a className="btn text-zinc-100 bg-gradient-to-r from-zinc-700 to-zinc-900 hover:from-zinc-900 hover:to-zinc-900 w-full shadow" href="#0">
                       Learn More
